@@ -23,3 +23,12 @@ def output_array (array)
   end
 end
 
+def return_string_array (array)
+  count = 0
+  str_array = []
+  while count < array.length
+  str_array.push[array[count]]
+  count += 1
+  end
+  return str_array
+end
