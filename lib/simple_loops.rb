@@ -1,4 +1,4 @@
-
+require pry
 def loop_message_five_times (string)
   count = 0
   while count < 5
@@ -29,6 +29,7 @@ def return_string_array (array)
   str_array = []
   while count < array.length
     conv = array[count]
+    
     conv.to_s
     str_array.push[conv]
     count += 1
