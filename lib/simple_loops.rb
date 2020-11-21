@@ -29,7 +29,6 @@ def return_string_array (array)
   str_array = []
   while count < array.length
     conv = array[count]
-    binding.pry
     conv.to_s
     str_array.push[conv]
     count += 1
