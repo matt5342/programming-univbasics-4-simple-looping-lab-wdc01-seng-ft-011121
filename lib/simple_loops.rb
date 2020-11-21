@@ -25,7 +25,7 @@ end
 
 def return_string_array (array)
   count = 0 
-  conv = ""
+  conv = 0
   str_array = []
   while count < array.length
     conv = array[count]
