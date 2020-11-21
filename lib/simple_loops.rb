@@ -12,7 +12,7 @@ def loop_message_n_times (string, int)
   while count < int
   puts string
   count += 1
-end
+  end
 end
 
 def output_array (array)
@@ -20,6 +20,6 @@ def output_array (array)
   while count > 0
   puts array[count - 1]
   count -= 1
-end
+  end
 end
 
