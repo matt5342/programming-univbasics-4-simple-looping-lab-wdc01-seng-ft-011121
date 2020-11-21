@@ -4,4 +4,5 @@ def loop_message_five_times (string)
   while count < 5
   puts message
   count ++
+  end
 end
