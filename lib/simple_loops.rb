@@ -24,10 +24,12 @@ def output_array (array)
 end
 
 def return_string_array (array)
-  count = 0
+  count = 0, conv = "s"
   str_array = []
   while count < array.length
-  str_array.push[array[count].to_s]
+  conv = array[count]
+  conv.to_s
+  str_array.push[conv]
   count += 1
   end
   return str_array
