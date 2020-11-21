@@ -25,10 +25,9 @@ end
 
 def return_string_array (array)
   count = 0 
-  conv = 0
   str_array = []
   while count < array.length
-    str_array.push(array[count]_to_s)
+    str_array.push(array[count].to_s)
     count += 1
   end
   return str_array
